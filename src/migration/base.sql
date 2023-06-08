@@ -69,3 +69,10 @@ insert ignore into mydb.matches (name, tourId, format, startTime, endTime) value
 insert ignore into mydb.matches (name, tourId, format, startTime, endTime) values ('IND vs WI', 3, 'ODI', '2023-06-12 10:00:00', '2023-06-12 23:00:00');
 insert ignore into mydb.matches (name, tourId, format, startTime, endTime) values ('IND vs WI', 3, 'ODI', '2023-06-14 10:00:00', '2023-06-14 23:00:00');
 insert ignore into mydb.matches (name, tourId, format, startTime, endTime) values ('KER vs JFC', 4, 'soccer', '2022-04-09 18:00:00', '2022-04-09 23:00:00');
+
+-- insert into news
+insert ignore into mydb.news (title, description, matchId) values ('layoffs news', 'layoff to take place this year around Dec', 1);
+insert ignore into mydb.news (title, description, matchId) values ('IND vs AUS', 'Higher chances of IND winning against AUS', 4);
+insert ignore into mydb.news (title, description, matchId) values ('IMP - new leage to start', 'New league to get introduced coming year', 6);
+insert ignore into mydb.news (title, description, tourId) values ('Captain Cool', 'Dhoni might participate in IPL 2024', 1);
+insert ignore into mydb.news (title, description, tourId) values ('Messi-10', 'Messi to play with UAE this year', 2);
